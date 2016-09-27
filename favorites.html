@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Realtime Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+  <div class="favorite-messages">
+  	
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCneecod3TC3UUSLOjzFZkcXhXAECTV7ug",
+        authDomain: "realtime-chat-f5832.firebaseapp.com",
+        databaseURL: "https://realtime-chat-f5832.firebaseio.com",
+        storageBucket: "realtime-chat-f5832.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/vendor/moment.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
